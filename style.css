@@ -1,0 +1,255 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+/*header start*/
+
+header{
+	width: 100%;
+	padding: 70px 0;
+	display: flow-root;
+
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+.nav-bar{
+	width: 100%;
+	float: left;
+}
+.logo{
+	width: 30%;
+	float: left;
+}
+.menu {
+	width: 70%;
+	float: right;
+	text-align: right;
+}
+.menu li{
+	list-style: none;
+	display: inline;
+	margin-left: 55px;
+}
+.menu a{
+	text-decoration: none;
+	color: #626262;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+}
+.menu a:hover{
+	cursor: pointer;
+	color: black;
+}
+
+/*header end*/
+/*main post start*/
+
+.main-post{
+	width: 100%;
+	display: flow-root;
+}
+.details{
+	padding: 60px;
+}
+.details h4{
+	color: #b4ad9e;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+}
+.details h1{
+	color: #626262;
+	margin: 25px 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+}
+.details p{
+	color: #777777;
+	margin-bottom: 25px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+}
+.details span{
+	color: #b4ad9e;
+}
+
+/*main post end*/
+/*posts start*/
+
+.posts{
+	width: 100%;
+	display: flow-root;
+}
+.gallery{
+	width: 100%;
+	padding: 60px;
+	float: left;
+}
+.left{
+	width: 41%;
+	float: left;
+	padding-right: 40px;
+}
+.right{
+	width: 41%;
+	float: left;
+	padding-left: 40px;
+}
+.description{
+	padding: 40px 0;
+}
+.description h4{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	color: #b8b2a4;
+}
+
+.description h1{
+	margin: 25px 0;
+	color: #626262;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+}
+..description p{
+	color: #626262;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+}
+
+/*posts end*/
+/*form start*/
+
+.form{
+	width: 100%;
+	background-color: #f0f0f0;
+	display: flow-root;
+}
+.subscribe{
+	width: 100%;
+	text-align: center;
+	padding: 60px 0;
+}
+.subscribe h1{
+	color: #333333;
+	padding-bottom: 60px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+}
+.subscribe input{
+	width: 31%;
+	padding: 15px 0;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+}
+.subscribe input::placeholder{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	color: #757575;
+	padding: 15px 0;
+}
+.subscribe input:focus{
+	outline: 0px;
+}
+
+/*form end*/
+/*button start*/
+
+.button{
+	width: 100%;
+}
+.load{
+	width: 100%;
+	text-align: center;
+	height: 500px;
+    margin: 10px 0;
+}
+.load input{
+	padding: 15px;
+    width: 15%;
+    font-size: 23px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: #626262;
+    background-color: transparent;
+    border: 1px solid black; 
+}
+
+/*button end*/
+/*footer start*/
+
+footer{
+	width: 100%;
+	display: flow-root;
+	background-color: #f0f0f0;
+    padding: 40px 0;
+}
+.container2{
+	/*width: 1140px;*/
+	/*margin-right: auto;*/
+}
+.footer-menu{
+	width: 100%;
+	float: left;
+	font-size: 18px;
+		
+}
+.footer-menu li{
+	list-style: none;
+	display: inline;
+}
+.footer-menu a{
+	text-decoration: none;
+}
+.left-menu{
+	width: 46%;
+	float: left;
+	text-align: left;
+	margin-left: 60px;
+}
+.right-menu{
+	width: 46%;
+	float: right;
+	text-align: right;
+	margin-right: 50px;
+}
+.left-menu li{
+	margin-right: 15px;
+}
+.left-menu a{
+	color: #606060;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+}
+.right-menu li{
+	margin: 0 8px;
+}
+.right-menu a{
+	color: #606060;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+}
+.icons{
+	display: inline;
+	color: #626262;
+}
+.icons a{
+	color: #626262 !important;
+}
+.left-menu a:hover{
+	cursor: pointer;
+	color: black;
+}
+.right-menu a:hover{
+	cursor: pointer;
+	color: black;
+}
+.extra{
+	margin-right: 15px;
+}
+
+/*footer end*/
